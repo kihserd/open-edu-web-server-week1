@@ -3,6 +3,11 @@
     "/*": {
       "X-Author":"unchatty",
       "Access-Control-Allow-Origin": "*"
+    },
+    "/login/*": {
+      "X-Author":"unchatty",
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"
     }
   }
 }

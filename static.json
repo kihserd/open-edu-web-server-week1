@@ -1,7 +1,8 @@
 {
   "headers": {
     "/*": {
-      "X-Author":"unchatty"
+      "X-Author":"unchatty",
+      "Access-Control-Allow-Origin": "*"
     }
   }
 }

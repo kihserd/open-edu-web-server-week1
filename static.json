@@ -3,6 +3,6 @@
     "/*": {
       "X-Author":"unchatty",
       "Access-Control-Allow-Origin": "*"
-    },
+    }
   }
 }

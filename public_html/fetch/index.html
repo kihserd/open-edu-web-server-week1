@@ -15,7 +15,7 @@
     bt.addEventListener('click',
         function(){
             fetch(inp.value)
-                .then(response => inp.value=text(response))
+                .then(response => inp.value=response.text())
         }        
     );
 

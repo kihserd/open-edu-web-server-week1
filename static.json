@@ -2,6 +2,9 @@
   "headers": {
     "/**": {
       "Access-Control-Allow-Origin": "*"
+    },
+    "/promise/*": {
+      "Content-Type": "text/plain"
     }
   }
 }

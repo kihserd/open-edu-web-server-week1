@@ -14,7 +14,6 @@
     const bt=document.getElementById('bt');
     bt.addEventListener('click',
         function(){
-            alert(inp.value)
             fetch(inp.value)
                 .then(response => response.text())
                 .then(data => inp.value=data)

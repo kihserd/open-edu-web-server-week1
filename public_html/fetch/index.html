@@ -10,9 +10,14 @@
     <button id="bt">Click here!</button>
 </body>
 <script>
-    const inp=getElementById('inp');
-    const bt=getElementById('bt');
+    const inp=document.getElementById('inp');
+    const bt=document.getElementById('bt');
     bt.addEventListener('click',
-        ()=>alert('test'));
+        function(){
+            fetch(inp.value)
+                .then(response => inp.value=text(response))
+        }        
+    );
+
 </script>
 </html>

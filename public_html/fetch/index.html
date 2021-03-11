@@ -14,10 +14,12 @@
     const bt=document.getElementById('bt');
     bt.addEventListener('click',
         function(){
+            alert(inp.value)
             fetch(inp.value)
-                .then(response => inp.value=response.text())
+                .then(response => response.text())
+                .then(data => inp.value=data)
         }        
-    );
+    )
 
 </script>
 </html>
